@@ -1,0 +1,34 @@
+body{
+    background-color: #a4e2e2;
+    text-align: center;
+    font-family: arial;
+
+}
+
+.titulo {
+
+    text-align: center;
+    font-family: arial;
+    font-size: 23px;
+
+
+}
+
+.paragrafo1 {
+
+    text-align: left;
+    font-family: Sans-Serif;
+    font-size: 20px;
+
+
+
+}
+
+.form {
+
+
+    text-align: center;
+
+
+
+}
