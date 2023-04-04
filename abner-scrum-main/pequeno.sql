@@ -24,14 +24,14 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `db`
+--
 --
 
 CREATE TABLE `db` (
   `id` int(11) NOT NULL,
   `nome` varchar(40) DEFAULT NULL,
   `sobrenome` varchar(55) DEFAULT NULL,
-  `telefone` varchar(18) DEFAULT NULL
+  `telefoncelular` varchar(18) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
@@ -49,7 +49,7 @@ INSERT INTO `db` (`id`, `nome`, `sobrenome`, `telefone`) VALUES
 --
 -- Índices para tabela `db`
 --
-ALTER TABLE `db`
+ALTER TABLE `contatos`
   ADD PRIMARY KEY (`id`);
 
 --

@@ -16,7 +16,7 @@
   <label>Sobrenome: </label><br>
   <input type="text" name="sobrenome"><br>
   <label>celular: </label><br>
-  <input type="text" name="telefone"><br>
+  <input type="text" name="celular"><br>
   <input type="submit" value="Gravar">
 </form>
 
@@ -39,7 +39,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $telefone = $_POST["celular"];
 
   // Insere os dados no banco de dados
-  $sql = "INSERT INTO db (nome, sobrenome, telefone) VALUES ('$nome', '$sobrenome', '$telefone')";
+  $sql = "INSERT INTO contatos (nome, sobrenome, celular) VALUES ('$nome', '$sobrenome', '$celular')";
   if ($conn->query($sql) === TRUE) {
     echo "Dados inseridos com sucesso"."<br>";
   } else {

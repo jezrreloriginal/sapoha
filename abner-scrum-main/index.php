@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <h1 id="titulo">pneumoultramicroscopicossilicovulcanoconiótico</h1>
+    <h1 id="titulo">vivendo e aprendendo</h1>
     <p id="paragrafo1">
-    Com 46 letras, pneumoultramicroscopicossilicovulcanoconiótico descreve indivíduo que possui doença pulmonar causada pela inspiração de cinzas vulcânicas. </p>
+    com grandes poderes vem gtrandes responsabilidades</p>
     
     <?php
     //abner jezrrel 
@@ -31,8 +31,6 @@ If ($conn->connect_error){
 Die ('Conecção Falhou- tente novamente'. $conn->connect_error);} 
 
 Echo  'conexão bem sucedida!'. '<br>';
-
- // lembrar de baixar o código atualizado para fazer o uplowad no site
 
 $sql= "SELECT nome,sobrenome, celular FROM contatos";
 
