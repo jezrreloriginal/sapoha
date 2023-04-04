@@ -1,7 +1,6 @@
 <?php
 
 $servername= 'localhost'; 
-$username= 'id20529078_info'; 
 $password= 'Aa@06102005'; 
 $namedb='id20529078_agenda';
  

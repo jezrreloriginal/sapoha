@@ -36,7 +36,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   // Coleta os dados do formulário
   $nome = $_POST["nome"];
   $sobrenome = $_POST["sobrenome"];
-  $telefone = $_POST["celular"];
+  $celular = $_POST["celular"];
 
   // Insere os dados no banco de dados
   $sql = "INSERT INTO contatos (nome, sobrenome, celular) VALUES ('$nome', '$sobrenome', '$celular')";
