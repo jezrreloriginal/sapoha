@@ -10,7 +10,7 @@
 <body>
     <div class="main-login">
          <div class="left-login">
-         <h1>realize o cadastro <br>Para entrar em nosso site</h1>
+         <h1>realize o cadastro <br>Para ter acesso ao site</h1>
          <img src="senha.svg" class="left-login-image"alt="senha">
          </div>
             <div class="rigth-login">
@@ -24,7 +24,7 @@
                         <label for="senha"> Senha </label>
                         <input type="password" name="senha" placeholder="Senha"><br>
                         </div>
-                     <button class="btn-login">Login</button>
+                     <button class="btn-login">cadastro</button>
                      </div>
                    </div>
                 

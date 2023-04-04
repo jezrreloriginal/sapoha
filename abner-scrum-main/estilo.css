@@ -1,15 +1,19 @@
 body{
-    background-color: #a4e2e2;
-    text-align: center;
-    font-family: arial;
+    warning {
+        background: pink;
+      }
+      .topbanner {
+        background: url("https://www.bing.com/ck/a?!&&p=abb9acdac6aaaa24JmltdHM9MTY4MDU2NjQwMCZpZ3VpZD0wOGI1ZjkxMy05OWM3LTY3OGEtMjdmMS1lYmZhOTg3NjY2YjEmaW5zaWQ9NTUzMg&ptn=3&hsh=3&fclid=08b5f913-99c7-678a-27f1-ebfa987666b1&u=a1L2ltYWdlcy9zZWFyY2g_cT1JbWFnZW0lMjBEZWdyYWRlJkZPUk09SVFGUkJBJmlkPTBERTQ1M0ZEOTE3QjgyNzI1Rjc0NEQzQ0EzMjk1OTU0NEMyNjFDNzA&ntb=1") #99f repeat-y fixed;
+         text-align: center;
+        font-family: arial;
 
 }
 
 .titulo {
 
     text-align: center;
-    font-family: arial;
-    font-size: 23px;
+    font-family: ,Arial, Helvetica, sans-serif; 
+    font-size: 36px;
 
 
 }
@@ -18,7 +22,7 @@ body{
 
     text-align: left;
     font-family: Sans-Serif;
-    font-size: 20px;
+    font-size: 26px;
 
 
 
