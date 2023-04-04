@@ -39,8 +39,8 @@ CREATE TABLE `db` (
 --
 
 INSERT INTO `db` (`id`, `nome`, `sobrenome`, `telefone`) VALUES
-(1, 'wagner', 'willian', '11962686069'),
-(2, 'Gaybriel', 'Pochenrique', '11909876551');
+(1, 'abner', 'jezrrel', '117070707070'),
+(2, 'joão', 'santos', '119098765989');
 
 --
 -- Índices para tabelas despejadas
@@ -59,7 +59,7 @@ ALTER TABLE `db`
 --
 -- AUTO_INCREMENT de tabela `db`
 --
-ALTER TABLE `db`
+ALTER TABLE `contatos`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 

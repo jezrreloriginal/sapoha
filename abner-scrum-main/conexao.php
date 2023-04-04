@@ -1,9 +1,9 @@
 <?php
 
 $servername= 'localhost'; 
-$username= 'id20481078_pequeno_db'; 
-$password= 'Wag1234566543§'; 
-$nomedodb= 'id20481078_pequeno';
+$username= 'id20529078_info'; 
+$password= 'Aa@06102005'; 
+$namedb='id20529078_agenda';
  
 
 $conn= new mysqli ( $servername , $username , $password,$nomedodb ); 

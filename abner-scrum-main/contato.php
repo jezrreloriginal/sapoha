@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Busca na agenda</title>
+    <title>Buscar informações </title>
 </head>
 <body>
-    <h1>Busca na agenda</h1>
+    <h1>pesquisa de dados</h1>
 
     <!-- Formulário HTML -->
 <form action="" method="post">
@@ -15,7 +15,7 @@
   <input type="text" name="nome"><br>
   <label>Sobrenome: </label><br>
   <input type="text" name="sobrenome"><br>
-  <label>Telefone: </label><br>
+  <label>celular: </label><br>
   <input type="text" name="telefone"><br>
   <input type="submit" value="Gravar">
 </form>
@@ -36,7 +36,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   // Coleta os dados do formulário
   $nome = $_POST["nome"];
   $sobrenome = $_POST["sobrenome"];
-  $telefone = $_POST["telefone"];
+  $telefone = $_POST["celular"];
 
   // Insere os dados no banco de dados
   $sql = "INSERT INTO db (nome, sobrenome, telefone) VALUES ('$nome', '$sobrenome', '$telefone')";

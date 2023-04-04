@@ -13,42 +13,42 @@
     Com 46 letras, pneumoultramicroscopicossilicovulcanoconiótico descreve indivíduo que possui doença pulmonar causada pela inspiração de cinzas vulcânicas. </p>
     
     <?php
-    //wagner willian santos, otávio marques domingos e gabriel herique sena silva
-    echo 'maior palavra do dicionario'. '<br>'; ?> 
+    //abner jezrrel 
+    echo 'desenvolvimento de sistemas'. '<br>'; ?> 
 
    <?php 
 
 $servername= 'localhost'; 
-$username= 'id20481078_pequeno_db'; 
-$password= 'Wag1234566543§'; 
-$nomedodb= 'id20481078_pequeno';
+$username= 'id20529078_info'; 
+$password= 'Aa@06102005'; 
+$nomedodb= 'd20529078_agenda';
  
 
 $conn= new mysqli ( $servername , $username , $password,$nomedodb ); 
 
 If ($conn->connect_error){	  
 
-Die ('Conecção Falhou'. $conn->connect_error);} 
+Die ('Conecção Falhou- tente novamente'. $conn->connect_error);} 
 
-Echo  'conectado ao DB!'. '<br>';
+Echo  'conexão bem sucedida!'. '<br>';
 
  // lembrar de baixar o código atualizado para fazer o uplowad no site
 
-$sql= "SELECT nome,sobrenome, telefone FROM db";
+$sql= "SELECT nome,sobrenome, celular FROM contatos";
 
 $result= $conn -> query ($sql);
 
 if ($result->num_rows > 0) {
     while ($linha = $result->fetch_assoc()) {
-        echo $linha["nome"] . " " . $linha["sobrenome"] . " - " . $linha["telefone"] . "<br>";
+        echo $linha["nome"] . " " . $linha["sobrenome"] . " - " . $linha["celular"] . "<br>";
     }
 } else {
-    echo "Nenhum registro encontrado.";
+    echo "informções não registradas";
 }
 
 $conn->close();
 ?>
-<a href= "login.php"> Consultar agenda </a>
+<a href= "login.php"> ver contatos </a>
 
 </body>
 </html>
