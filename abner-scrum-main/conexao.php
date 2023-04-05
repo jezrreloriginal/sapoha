@@ -2,6 +2,7 @@
 
 $servername= 'localhost'; 
 $password= 'Aa@06102005'; 
+$username= 'id20529078_contatos'; 
 $namedb='id20529078_agenda';
  
 
