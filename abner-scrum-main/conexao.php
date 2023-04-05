@@ -13,4 +13,4 @@ Die ('Conecção Falhou'. $conn->connect_error);}
 
 Echo  'conectado ao DB!'. '<br>';
 
-?>
+?> ..
