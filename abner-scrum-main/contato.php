@@ -46,7 +46,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "Erro ao inserir dados: " . $conn->error;
   }
 }
-$conn->close();
+$conn->close(); l
 ?>
 <p></p>
 
