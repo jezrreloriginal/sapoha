@@ -19,9 +19,9 @@
    <?php 
 
 $servername= 'localhost'; 
-$username= 'id20529078_info'; 
+$username= 'id20529078_contatos'; 
 $password= 'Aa@06102005'; 
-$nomedodb= 'd20529078_agenda';
+$nomedodb= 'id20529078_agenda';
  
 
 $conn= new mysqli ( $servername , $username , $password,$nomedodb ); 
@@ -30,7 +30,7 @@ If ($conn->connect_error){
 
 Die ('Conecção Falhou- tente novamente'. $conn->connect_error);} 
 
-Echo  'conexão bem sucedida!'. '<br>';
+Echo  'conexão bem sucedida!'. '<br>';-+
 
 $sql= "SELECT nome,sobrenome, celular FROM contatos";
 

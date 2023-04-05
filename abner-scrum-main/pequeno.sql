@@ -31,14 +31,14 @@ CREATE TABLE `db` (
   `id` int(11) NOT NULL,
   `nome` varchar(40) DEFAULT NULL,
   `sobrenome` varchar(55) DEFAULT NULL,
-  `telefoncelular` varchar(18) DEFAULT NULL
+  `celular` varchar(18) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Extraindo dados da tabela `db`
 --
 
-INSERT INTO `db` (`id`, `nome`, `sobrenome`, `telefone`) VALUES
+INSERT INTO `contato` (`id`, `nome`, `sobrenome`, `celular`) VALUES
 (1, 'abner', 'jezrrel', '117070707070'),
 (2, 'joão', 'santos', '119098765989');
 
@@ -49,7 +49,7 @@ INSERT INTO `db` (`id`, `nome`, `sobrenome`, `telefone`) VALUES
 --
 -- Índices para tabela `db`
 --
-ALTER TABLE `contatos`
+ALTER TABLE `contato`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -59,7 +59,7 @@ ALTER TABLE `contatos`
 --
 -- AUTO_INCREMENT de tabela `db`
 --
-ALTER TABLE `contatos`
+ALTER TABLE `contato`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
